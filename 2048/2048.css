@@ -1,0 +1,63 @@
+#gridPanel{
+	width:480px;height:480px;
+	margin:0 auto;position:relative;
+	background:#bbada0;border-radius:10px;
+}
+.cell{
+	width:100px;height:100px;
+	position:absolute;border-radius:6px;
+	background:#ccc0b3;color:#fff;
+	font-size:60px;text-align:center;line-height:100px;
+}
+
+[id^="c0"]{top:16px}/*属性选择器*/
+[id^="c1"]{top:132px}
+[id^="c2"]{top:248px}
+[id^="c3"]{top:364px}
+[id$="0"]{left:16px}
+[id$="1"]{left:132px}
+[id$="2"]{left:248px}
+[id$="3"]{left:364px}
+
+
+.n2{background-color:#eee3da}
+.n4{background-color:#ede0c8}
+.n8{background-color:#f2b179}
+.n16{background-color:#f59563}
+.n32{background-color:#f67c5f}
+.n64{background-color:#f65e3b}
+.n128{background-color:#edcf72}
+.n256{background-color:#edcc61}
+.n512{background-color:#9c0}
+.n1024{background-color:#33b5e5}
+.n2048{background-color:#09c}
+.n4096{background-color:#a6c}
+.n8192{background-color:#93c}
+.n2,.n4{color:#776e65}
+.n1024,.n2048,.n4096,.n8192{font-size:40px}
+
+p{
+	width:480px;margin:0 auto;
+	font-size:40px;font-family:Arial;
+	font-weight:bold;padding-top:15px;
+}
+#gameOver{
+	display:none;
+	position:absolute;
+	top:0;right:0;bottom:0;left:0;
+	background:rgba(55,55,55,.5);
+}
+#gameOver>p{
+	width:300px;height:200px;background:#fff;
+	position:absolute;top:50%;left:50%;
+	margin-left:-150px;margin-top:-100px;
+	text-align:center;line-height:1.5em;
+	border-radius:10px;border:1px solid #edcf72;
+}
+#gameOver .btn{
+	padding:10px;
+	color:#fff;
+	background:#9f8d77;
+	border-radius:6px;
+	text-decoration:none;
+}

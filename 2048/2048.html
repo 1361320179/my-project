@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Insert a title</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="2048.css">
+	</head>
+	<body>
+		<p>SCORE:<span id="score">0</span></p>
+		<!-- div#gridPanel>div#c00.cell*16+Tab -->
+		<div id="gridPanel">
+			<div id="c00" class="cell"></div>
+			<div id="c01" class="cell"></div>
+			<div id="c02" class="cell"></div>
+			<div id="c03" class="cell"></div>
+
+			<div id="c10" class="cell"></div>
+			<div id="c11" class="cell"></div>
+			<div id="c12" class="cell"></div>
+			<div id="c13" class	="cell"></div>
+
+			<div id="c20" class="cell"></div>
+			<div id="c21" class="cell"></div>
+			<div id="c22" class="cell"></div>
+			<div id="c23" class="cell"></div>
+
+			<div id="c30" class="cell"></div>
+			<div id="c31" class="cell"></div>
+			<div id="c32" class="cell"></div>
+			<div id="c33" class="cell"></div>
+		</div>
+		<div id="gameOver">
+			<p>
+				GAME OVER!<br>
+				SCORE:<span id="final"></span><br>
+				<a href="javascript:game.start();" class="btn">TRY AGAIN!</a>
+			</p>
+		</div>
+		<script src="2048.js"></script>
+	</body>
+</html>
