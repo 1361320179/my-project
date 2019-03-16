@@ -8,7 +8,7 @@ var game={
 	//对象自己的方法要使用自己的属性，必须this.
 	start(){//游戏启动
 		this.state=this.RUNNING;//重置游戏状态为运行中
-		score=0;//分数清零
+		this.score=0;//分数清零
 		//新建空数组保存在data中
 		this.data=[];
 		for(var r=0;r<this.RN;r++){//r从0开始，到<RN结束
